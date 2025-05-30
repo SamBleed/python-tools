@@ -1,5 +1,4 @@
-
-```markdown
+````markdown
 # 04-nmap_launcher.py
 
 Este script en Python ejecuta un escaneo básico con Nmap para descubrir hosts y puertos abiertos en una red local.
@@ -20,12 +19,19 @@ Ejecuta el script desde la terminal con:
 
 ```bash
 python 04-nmap_launcher.py
-El script te pedirá la IP o rango de IPs a escanear.
+````
 
-Advertencias
-Ejecuta escaneos solo en redes donde tengas permiso para hacerlo.
+El script te pedirá que ingreses la IP o el rango de IPs que deseas escanear.
 
-Uso exclusivo para fines educativos y pruebas en entornos controlados.
+---
 
-Autor
-SamBleed - https://github.com/SamBleed
+## Advertencias
+
+* Realiza escaneos únicamente en redes donde tengas permiso para hacerlo.
+* Uso exclusivo para fines educativos y pruebas en entornos controlados.
+
+---
+
+## Autor
+
+SamBleed - [https://github.com/SamBleed](https://github.com/SamBleed)
