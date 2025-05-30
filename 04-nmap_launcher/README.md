@@ -1,13 +1,16 @@
-# 03-wifi_reset.py
 
-Este script en Python reinicia el adaptador WiFi de tu sistema. Es útil para solucionar problemas de conexión o refrescar la configuración de red.
+```markdown
+# 04-nmap_launcher.py
+
+Este script en Python ejecuta un escaneo básico con Nmap para descubrir hosts y puertos abiertos en una red local.
 
 ---
 
 ## Requisitos
 
 - Python 3.x  
-- Ejecutar con permisos de administrador (sudo en Linux, CMD/PowerShell como administrador en Windows).
+- Tener instalado Nmap en el sistema y que esté en el PATH.  
+- Ejecutar con permisos de administrador para escaneos más completos.
 
 ---
 
@@ -16,15 +19,13 @@ Este script en Python reinicia el adaptador WiFi de tu sistema. Es útil para so
 Ejecuta el script desde la terminal con:
 
 ```bash
-python 03-wifi_reset.py
-El script realizará un reinicio del adaptador WiFi automáticamente.
+python 04-nmap_launcher.py
+El script te pedirá la IP o rango de IPs a escanear.
 
 Advertencias
-Reiniciar el adaptador desconectará temporalmente tu conexión WiFi.
+Ejecuta escaneos solo en redes donde tengas permiso para hacerlo.
 
-Usa este script en redes y dispositivos donde tengas permiso para hacerlo.
-
-Está destinado para fines educativos y pruebas en entornos controlados.
+Uso exclusivo para fines educativos y pruebas en entornos controlados.
 
 Autor
 SamBleed - https://github.com/SamBleed
